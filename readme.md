@@ -1,4 +1,4 @@
-# pupa-cli [![Build Status](https://travis-ci.org/sindresorhus/pupa-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/pupa-cli)
+# pupa-cli
 
 > Simple micro templating
 
