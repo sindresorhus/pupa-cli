@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const getStdin = require('get-stdin');
-const pupa = require('pupa');
+import meow from 'meow';
+import getStdin from 'get-stdin';
+import pupa from 'pupa';
 
 const cli = meow(`
 	Examples
@@ -14,7 +13,9 @@ const cli = meow(`
 
 	  $ echo 'Hello {{0}}' | pupa '<b>World</b>'
 	  Hello &lt;b&gt;World&lt;/b&gt;
-`);
+`, {
+	importMeta: import.meta
+});
 
 (async () => {
 	const stdin = await getStdin();

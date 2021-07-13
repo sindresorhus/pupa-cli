@@ -4,16 +4,18 @@
 	"description": "Simple micro templating",
 	"license": "MIT",
 	"repository": "sindresorhus/pupa-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
-		"pupa": "cli.js"
+		"pupa": "./cli.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=12.20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -40,13 +42,13 @@
 		"micro"
 	],
 	"dependencies": {
-		"get-stdin": "^7.0.0",
-		"meow": "^5.0.0",
-		"pupa": "^2.0.0"
+		"get-stdin": "^9.0.0",
+		"meow": "^10.0.1",
+		"pupa": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "^2.1.0",
-		"execa": "^1.0.0",
-		"xo": "^0.24.0"
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"xo": "^0.25.0"
 	}
 }

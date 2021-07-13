@@ -2,13 +2,11 @@
 
 > Simple micro templating
 
-
 ## Install
 
 ```
 $ npm install --global pupa-cli
 ```
-
 
 ## Usage
 
@@ -25,7 +23,6 @@ $ pupa --help
     $ echo 'Hello {{0}}' | pupa '<b>World</b>'
     Hello &lt;b&gt;World&lt;/b&gt;
 ```
-
 
 ## Related
 
